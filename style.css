@@ -1,0 +1,156 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+section {
+  background: rgba(19, 17, 17, 0.89);
+  width: 25%;
+  height: 480px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px rgb(156, 167, 156);
+  border-style: ridge;
+  border-color: #e6dede40;
+  border-width: 6px;
+  min-width: 204px;
+}
+#input {
+  margin-top: 7%;
+  width: 100%;
+  border-radius: 10px;
+  height: 55px;
+  text-align: end;
+  background: seagreen;
+  border-color: seagreen;
+  border-style: ridge;
+  font-size: 100%;
+  font-family: OCR A Std, monospace;
+  color: rgba(19, 17, 17, 0.89);
+  margin-left: -3px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+
+  padding: 7px;
+}
+#input1 {
+  grid-column: 1 / 5;
+  text-align: center;
+  padding: 13px 13px;
+  font-size: 30px;
+  font-family: OCR A Std, monospace;
+}
+.decimal {
+  grid-column: 1 / span 2;
+  font-family: OCR A Std, monospace;
+  border-radius: 25px;
+  background: rgb(151, 224, 179);
+  text-align: center;
+  padding: 13px 13px;
+  font-size: 30px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+}
+.equalsto {
+  grid-column: 3 / span 2;
+  background: rgb(151, 224, 179);
+  text-align: center;
+  padding: 13px 13px;
+  font-size: 30px;
+  border-radius: 25px;
+  font-family: OCR A Std, monospace;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+}
+
+.row1 {
+  background: rgb(2, 2, 2);
+  text-align: center;
+  padding: 13px 13px;
+  font-size: 30px;
+  border-radius: 10px;
+  color: white;
+  font-family: OCR A Std, monospace;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 5px rgb(21, 22, 21);
+  cursor: pointer;
+}
+.rows {
+  background: rgb(155, 155, 177);
+  text-align: center;
+  padding: 13px 13px;
+  font-size: 30px;
+  border-radius: 10px;
+  color: white;
+  font-family: OCR A Std, monospace;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.bs {
+  background: rgb(2, 2, 2);
+  text-align: center;
+  padding: 13px 13px;
+  font-size: 30px;
+  border-radius: 10px;
+  color: white;
+  font-family: OCR A Std, monospace;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 5px rgb(21, 22, 21);
+  font-size: 100%;
+  padding-top: 19px;
+  cursor: pointer;
+}
+.rows:hover {
+  background: rgb(151, 224, 179);
+}
+.rows:active {
+  background-color: rgb(151, 224, 179);
+  box-shadow: 0 1px rgb(235, 243, 238);
+  transform: translateY(1px);
+}
+.decimal,
+.equalsto {
+  margin-top: 10px;
+}
+
+.decimal:hover {
+  background: seagreen;
+}
+.decimal:active {
+  background-color: seagreen;
+  box-shadow: 0 1px seagreen;
+  transform: translateY(1px);
+}
+.equalsto:hover {
+  background: seagreen;
+}
+.equalsto:active {
+  background-color: seagreen;
+  box-shadow: 0 1px seagreen;
+  transform: translateY(1px);
+}
+.row1:active {
+  background-color: rgb(151, 224, 179);
+  box-shadow: 0 1px rgb(235, 243, 238);
+  transform: translateY(1px);
+}
+.row1:hover {
+  background: rgb(151, 224, 179);
+}
+.bs:hover {
+  background: rgb(151, 224, 179);
+}
+.bs:active {
+  background-color: rgb(151, 224, 179);
+  box-shadow: 0 1px rgb(235, 243, 238);
+  transform: translateY(1px);
+}
